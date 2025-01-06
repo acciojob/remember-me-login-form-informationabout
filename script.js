@@ -1,7 +1,6 @@
 //your JS code here. If required.
 const loginForm = document.getElementById('loginForm');
 const existingButton = document.getElementById('existing');
-
 // Load existing user details if available
 window.onload = () => {
   const savedUsername = localStorage.getItem('username');
